@@ -40,7 +40,7 @@ class _SignupPageState extends ModularState<SignupPage, SignupController> {
             child: Center(
               child: GestureDetector(
                 onTap: () {
-                  Modular.to.pushNamed('/signin');
+                  Modular.to.pushReplacementNamed('/signin');
                 },
                 child: Text(
                   'Log in',
